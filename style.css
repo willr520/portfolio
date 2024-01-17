@@ -1,0 +1,74 @@
+body {
+    margin-top:80px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+}
+
+#name {
+   margin-left:40px;
+   font-weight:bold;
+
+}
+
+#about {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+#about a:hover {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+}
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+   text-decoration: underline; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+#goback {
+    margin-left:40px
+}
+
+#goback:hover {
+    text-decoration:none;
+}
+
+#loop:hover {
+    text-decoration:none;
+    font-style: italic;
+}
+
+.designlist a:hover {
+    text-decoration: none;
+    background-color: white;
+    color:black;
+}
+
+.work-details {
+    position: fixed;
+    box-sizing: border-box;
+    top:0;
+    right: 0;
+    width: 50%;
+    height: auto;
+    padding: 20px; /* Adjust padding as needed */
+    color: white;
+    display: none;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.work-details img {
+    width: 100%;
+    height: auto; /* Set height to 100% to ensure the entire image is visible */
+}
+
